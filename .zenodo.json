@@ -8,6 +8,5 @@
   ],
   "license": "MIT",
   "title": "IVW Climate Data",
-  "keywords": ["Ambient condition monitoring", "Air conditioning", "Laboratory information system"],
-  "grants": "none"
+  "keywords": ["Ambient condition monitoring", "Air conditioning", "Laboratory information system"]
 }

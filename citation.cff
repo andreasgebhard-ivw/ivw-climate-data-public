@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Gebhard
+    given-names: Andreas
+    orcid: 0000-0001-6676-0270
+title: "IVW Climate Data"
+version: 1.0.0
+date-released: 2023-02-08

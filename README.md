@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/598096418.svg)](https://zenodo.org/badge/latestdoi/598096418)
+
 IVW Climate Data (ICD)
 ======================
 

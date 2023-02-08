@@ -1,0 +1,23 @@
+{
+  "data":
+    {
+      "type": "measured_data",
+      "attributes": {
+        "measurand": "Room 438",
+        "quantity": "ambient_temperature",
+        "value": "23.78",
+        "unit": "degC",
+        "json": {
+          "forecast": "bright"
+        }
+      },
+      "relationships": {
+        "measuring_instrument": {
+          "data": {
+            "type": "measuring_instruments",
+            "id": "ccc1a054-9c1d-49d7-9712-5a6efff28a28"
+          }
+        }
+      }
+    }
+}

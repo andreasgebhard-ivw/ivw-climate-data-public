@@ -1,0 +1,13 @@
+{
+  "creators": [
+    {
+      "orcid": "0000-0001-6676-0270",
+      "affiliation": "Leibniz-Institut für Verbundwerkstoffe GmbH",
+      "name": "Andreas Gebhard"
+    }
+  ],
+  "license": "MIT",
+  "title": "IVW Climate Data",
+  "keywords": ["Ambient condition monitoring", "Air conditioning", "Laboratory information system"],
+  "grants": null
+}

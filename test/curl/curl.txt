@@ -1,0 +1,15 @@
+# look-up an api token from the database
+# here: 8e1c3385-5664-4c7b-9eb7-5d5fa90c7c22
+
+# create new calliper
+curl -d "@mi.json" -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST http://localhost:3001/api/v2/measuring_instruments?api_token=8e1c3385-5664-4c7b-9eb7-5d5fa90c7c22
+
+# before making this post,
+# update the id field of the measuring_instrument association in measured_data.json
+# according to result of the previous request
+curl -d "@measured_data.json" -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST http://localhost:3001/api/v2/measured_data.json?api_token=8e1c3385-5664-4c7b-9eb7-5d5fa90c7c22
+
+
+
+curl 'http://localhost:3000/api/posts' -H 'Accept: application/vnd.api+json' \
+    -H 'Content-Type: application/vnd.api+json' \
